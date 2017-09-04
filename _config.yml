@@ -45,5 +45,5 @@ plugins:
 
 header_pages:
 - projects.md
-- dairy.md
+- diary.md
 - about.md

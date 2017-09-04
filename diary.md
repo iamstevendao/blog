@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Dairy
-permalink: /dairy/
+title: Diary
+permalink: /diary/
 ---
 
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
  
 - **2017-09-04 ([Steven's Blog](https://iamstevendao.github.io/blog) to be deployed)**  
-I start writing blog (>.<), after found a really impressive persional blog of [Evan Hahn](http://evanhahn.com/). It urged me and I belive I can write my own blog and [my diary](https://github.com/iamstevendao/StevensStory) also be moved into a page: [Steven's Dairy](https://iamstevendao.github.io/blog/dairy/).  
+I start writing blog (>.<), after found a really impressive persional blog of [Evan Hahn](http://evanhahn.com/). It urged me and I belive I can write my own blog and [my diary](https://github.com/iamstevendao/StevensStory) also be moved into a page: [Steven's Diary](https://iamstevendao.github.io/blog/diary/).  
 
 - **2017-09-02 (Documentation Day)**  
 Nothing much special today since I work around documenting and fixing display errors of my [website](http://stevend.tk/), [Naruto website](https://github.com/iamstevendao/Naruto), [AfterAll](https://github.com/iamstevendao/AfterAll) and [Superfast Dictionary](https://github.com/iamstevendao/Superfast-Dictionary). 
