@@ -4,7 +4,7 @@ title: Dairy
 permalink: /dairy/
 ---
 
->Please, if my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
+>If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
  
 - **2017-09-04 ([Steven's Blog](https://iamstevendao.github.io/blog) to be deployed)**  
 I start writing blog (>.<), after found a really impressive persional blog of [Evan Hahn](http://evanhahn.com/). It urged me and I belive I can write my own blog and [my diary](https://github.com/iamstevendao/StevensStory) also be moved into a page: [Steven's Dairy](https://iamstevendao.github.io/blog/dairy/).  
@@ -21,7 +21,7 @@ Wish that I can keep on this habit with every project I jump in.
 
 - **2017-08-27 (initial commit)**  
 As being inspired by many people, articles, I decide to write my dairy (mostly coding dairy) which tells about my path full of trouble learning new stuff and to remind me not to forget (give up) the things I could have finished if I have tried a bit more.  
-An interesting thing is, with the availability of thousands of tools, webs supporting blog and diary writing, after 1 hour of signing up, trying, my decision is this 'low-level' text file and to make it as normal Git project >.<  
+An interesting thing is, with the availability of thousands of tools, webs supporting blog and diary writing, after 1 hour of signing up, trying, my decision is this 'low-level' text file and to make it as normal Git project >.<.  
 Because this is the first commit, then I should summary my coding life to this point:
 
 - **2017-08-20 (LiverStudio to Establish)**  
@@ -37,13 +37,10 @@ After spending hours watching [The Coding Train](https://www.youtube.com/user/sh
 I got rejected every where I applied for a position, I was asking myself many times, why? I had studied hard, worked hard, got certain achievements that my friends had to be jealous. I knew I could learn fast, do multi tasking but how to show it to recruiters when my English was not good enough, there must be a way. That was the time I started making my [portfolio](http://stevend.tk/) which the idea came from everything inside a code editor. I am so proud of it, many people liked it, and I got more interview than before.
 
 - **2016-A-day-in-June/July ([AfterAll](https://github.com/iamstevendao/AfterAll))**  
-I and my girl friend want to store and keep our special dates, we had tried many different apps in Apple and Android store but got satified with non of them (poor design, ads). Then I decided to build our own app. It was roughly finished but I still not publish yet as there are some bugs and I feel really hesitate to fix all of them >.< (I hate myself)
+I and my girl friend want to store and keep our special dates, we had tried many different apps in Apple and Android store but got satified with non of them (poor design, ads). Then I decided to build our own app. It was roughly finished but I still not publish yet as there are some bugs and I feel really hesitate to fix all of them >.< (I hate myself).
 
 - **2016-03-14 ([Superfast Dictionary](https://play.google.com/store/apps/details?id=fukie.sieunhanhav))**  
 After the meetup about [Firebase](https://firebase.google.com/), I got curious about **NoSQL**, after try out, I built my first application by 1 week of a painful fighting with **Android Studio** which was a totally strange thing with me. I was very happy because it was the first 'something' I could make my own.
 
 - ***Before that...***  
 There are a lot of things I want to write, but because this is the initial commit, then I leave this blank, but I promise I will be back soon.
-
-
-
