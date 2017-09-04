@@ -5,11 +5,11 @@ permalink: /about/
 ---
 
 I am Steven Dao, 
-- I am a student at [Academy of IT](http://www.ait.edu.au/)
-- I am working at [Becas Technology](http://www.becas.com.au/), [ACE Tuition Center](http://acetuitioncentre.com.au/), [SMASH!](http://www.smash.org.au/) and [Aromajoin Corporation](http://aromajoin.com/)
+- I am a student at [Academy of IT](http://www.ait.edu.au/).
+- I am working at [Becas Technology](http://www.becas.com.au/), [ACE Tuition Center](http://acetuitioncentre.com.au/), [SMASH!](http://www.smash.org.au/) and [Aromajoin Corporation](http://aromajoin.com/).
 - I love Liverpool, Naruto and coding.
 
-Ping me at: [github@iamstevendao](https://github.com/iamstevendao), [twitter@iamstevendao](https://twitter.com/iamstevendao)
+Ping me at [github](https://github.com/iamstevendao), [twitter](https://twitter.com/iamstevendao) or check out my [portfolio](http://stevend.tk/). 
 &nbsp;
 
 &nbsp;
