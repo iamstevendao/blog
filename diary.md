@@ -3,7 +3,6 @@ layout: page
 title: Diary
 permalink: /diary/
 ---
-
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
  
 - **2017-09-04 ([Steven's Blog](https://iamstevendao.github.io/blog) to be deployed)**  
