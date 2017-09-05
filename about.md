@@ -9,7 +9,7 @@ I am Steven Dao,
 - I am working at [Becas Technology](http://www.becas.com.au/), [ACE Tuition Center](http://acetuitioncentre.com.au/), [SMASH!](http://www.smash.org.au/) and [Aromajoin Corporation](http://aromajoin.com/).
 - I love Liverpool, Naruto and coding.
 
-Ping me at [github](https://github.com/iamstevendao), [twitter](https://twitter.com/iamstevendao) or check out my [portfolio](http://stevend.tk/). 
+Ping me at [github](https://github.com/iamstevendao), [twitter](https://twitter.com/iamstevendao) or check out my [portfolio](https://iamstevendao.github.io/portfolio). 
 &nbsp;
 
 &nbsp;
