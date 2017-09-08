@@ -6,7 +6,8 @@ permalink: /diary/
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
  
 - **2017-09-08 (Implement [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to [Pacman](https://github.com/iamstevendao/pacman))**
-I am really tired after such a day, but I need to write something before I forget all about it :)). I am on my way implementing Dijkstra's Algorithm to my Pacman projects, of course javascript version will be applied first. This is what it looks like so far: ![Pacman](https://thumbs.gfycat.com/QuickEveryAmericanbadger-size_restricted.gif)
+I am really tired after such a day, but I need to write something before I forget all about it :)). I am on my way implementing Dijkstra's Algorithm to my Pacman projects, of course javascript version will be applied first. This is what it looks like so far:  
+![Pacman](https://thumbs.gfycat.com/QuickEveryAmericanbadger-size_restricted.gif)  
 Basically it works but doesn't satify me yet. I really want ghosts chase pacman but also have to be by different ways which increases the difficulty of the game. >.<, there are still a lot of things need to be done.
 
 - **2017-09-04 ([Steven's Blog](https://iamstevendao.github.io/blog) to be deployed)**  
