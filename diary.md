@@ -5,11 +5,15 @@ permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
  
+- **2017-09-08 (Implement [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to [Pacman](https://github.com/iamstevendao/pacman))**
+I am really tired after such a day, but I need to write something before I forget all about it :)). I am on my way implementing Dijkstra's Algorithm to my Pacman projects, of course javascript version will be applied first. This is what it looks like so far: ![Pacman](https://thumbs.gfycat.com/QuickEveryAmericanbadger-size_restricted.gif)
+Basically it works but doesn't satify me yet. I really want ghosts chase pacman but also have to be by different ways which increases the difficulty of the game. >.<, there are still a lot of things need to be done.
+
 - **2017-09-04 ([Steven's Blog](https://iamstevendao.github.io/blog) to be deployed)**  
 I start writing blog (>.<), after found a really impressive persional blog of [Evan Hahn](http://evanhahn.com/). It urged me and I belive I can write my own blog and [my diary](https://github.com/iamstevendao/StevensStory) also be moved into a page: [Steven's Diary](https://iamstevendao.github.io/blog/diary/).  
 
 - **2017-09-02 (Documentation Day)**  
-Nothing much special today since I work around documenting and fixing display errors of my [website](http://stevend.tk/), [Naruto website](https://github.com/iamstevendao/Naruto), [AfterAll](https://github.com/iamstevendao/AfterAll) and [Superfast Dictionary](https://github.com/iamstevendao/Superfast-Dictionary). 
+Nothing much special today since I work around documenting and fixing display errors of my [website](https://iamstevendao.github.io/portfolio/), [Naruto website](https://github.com/iamstevendao/Naruto), [AfterAll](https://github.com/iamstevendao/AfterAll) and [Superfast Dictionary](https://github.com/iamstevendao/Superfast-Dictionary). 
 
 - **2017-08-30 ([AfterAll](https://github.com/iamstevendao/AfterAll) & [Superfast-Dictionary](https://github.com/iamstevendao/Superfast-Dictionary) to be open-source)**  
 I decide to move my 2 very first projects from Bitbucket to Github. Just wish one day someone find them interesting and continue what I have left.  
@@ -32,8 +36,8 @@ From the idea of building a bundle of console on-school games running in Cordova
 - **2017-A-day-in-July (Dive into Javascript)**  
 After spending hours watching [The Coding Train](https://www.youtube.com/user/shiffman), I got 'something' with Javascript, it liked a little crush and I just want to jump into it. My Javascript started!!!
 
-- **2017-A-day-in-April ([Portfolio](http://stevend.tk/))**  
-I got rejected every where I applied for a position, I was asking myself many times, why? I had studied hard, worked hard, got certain achievements that my friends had to be jealous. I knew I could learn fast, do multi tasking but how to show it to recruiters when my English was not good enough, there must be a way. That was the time I started making my [portfolio](http://stevend.tk/) which the idea came from everything inside a code editor. I am so proud of it, many people liked it, and I got more interview than before.
+- **2017-A-day-in-April ([Portfolio](https://iamstevendao.github.io/portfolio/))**  
+I got rejected every where I applied for a position, I was asking myself many times, why? I had studied hard, worked hard, got certain achievements that my friends had to be jealous. I knew I could learn fast, do multi tasking but how to show it to recruiters when my English was not good enough, there must be a way. That was the time I started making my [portfolio](https://iamstevendao.github.io/portfolio/) which the idea came from everything inside a code editor. I am so proud of it, many people liked it, and I got more interview than before.
 
 - **2016-A-day-in-June/July ([AfterAll](https://github.com/iamstevendao/AfterAll))**  
 I and my girl friend want to store and keep our special dates, we had tried many different apps in Apple and Android store but got satified with non of them (poor design, ads). Then I decided to build our own app. It was roughly finished but I still not publish yet as there are some bugs and I feel really hesitate to fix all of them >.< (I hate myself).
