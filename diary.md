@@ -6,7 +6,7 @@ permalink: /diary/
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
  
 - **2017-09-11 (Finishing [Pacman javascript version](https://github.com/iamstevendao/pacman))**
-I am so happy right now. There are a lot of painful works to get to this point. I will write a post to celebrate this moment. **Ghosts** are getting smarter by chasing **pacman** in different ways, switching between chasing **pacman** and among **cherries**, and runing away when **pacman** gets its power >.<.This is how the game looks like:
+I am so happy right now. There were a lot of painful works to get to this point. I will write a post to celebrate this moment. **Ghosts** are getting smarter by chasing **pacman** in different ways, switching between chasing **pacman** and among **cherries**, and runing away when **pacman** gets its power >.<.This is how the game looks like:
 ![Pacman](https://thumbs.gfycat.com/FantasticFondBarnowl-size_restricted.gif)
 
 - **2017-09-08 (Implement [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to [Pacman](https://github.com/iamstevendao/pacman))**
