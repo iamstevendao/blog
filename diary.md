@@ -4,6 +4,13 @@ title: Diary
 permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
+
+- **2017-09-19 (Start on [OneForth](https://github.com/iamstevendao/oneForth), a Desktop client for Everything I & you love)**  
+14:30 : Trying to push some Angularjs into my head  
+14:50 : Enchanted by a video about [Electron](https://github.com/electron/electron) even this was the second time I watched it  
+20:00 : Reading, finding projects powered by Electron, got enchanted again >.<  
+23:00 : Come up with an idea about a client for 9gag, messenger, twitter, ... all the things I need to open in my Chrome after get home.  
+24:00 : Create [OneForth](https://github.com/iamstevendao/oneForth), sucessfully open 9GAG (not that bad).
  
 - **2017-09-11 (Finishing [Pacman javascript version](https://github.com/iamstevendao/pacman))**
 I am so happy right now. There were a lot of painful works to get to this point. I will write a post to celebrate this moment. **Ghosts** are getting smarter by chasing **pacman** in different ways, switching between chasing **pacman** and among **cherries**, and runing away when **pacman** gets its power >.<.This is how the game looks like:
