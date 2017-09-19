@@ -4,7 +4,7 @@ title:  "Dijkstra's Algorithm for Pacman"
 date:   2017-09-17 23:59:59 +1000
 categories: algorithm
 ---
-This is how my pacman game looks like (try a [demo](https://repl.it/Jv9c/34)):  
+This is how my pacman game looks like (checkout the [demo](https://repl.it/Jv9c/34) or [source](https://github.com/iamstevendao/pacman)):  
 <p align="center">
 <img src="https://thumbs.gfycat.com/FantasticFondBarnowl-size_restricted.gif"/>
 </p>
@@ -20,13 +20,20 @@ I am telling about that road, it can be splitted into 4 bullets:
 It was a bit tricky at my first approach, since every time HTML gets redraw using canvas, the ghosts don't move from 1 block to another block but 1/4 block to make game smooth. So they shouldn't seach for a random direction every step they take. But the range for them to move in a 90 degree angle is bigger than the block because it uses the same logic when user tries to control pacman:
 
 Because it randoms a new direction when it is able to turn into other sides but not the way back except when it can't move forward, when it turns right, in the first frame after that, technically it still can turn into the direction before. So sometimes when it turns left or right, it keeps moving forward and backward.
-My friend, Chris said that "why don't let the ghost finished one block before thinks about changing its direction", it was not my solution at the end of the day but it made me realize that it would be something really close to the solution.
+My friend, Chris said that "why don't let the ghost finished one block before thinks about changing its direction", it was not my solution at the end of the day but it made me realize that it would be something really close to the solution:
 
-**Finally, ghosts only random a new direction when its coordinates are integer.**
+```js
+//if the ghost is at the center of a block, random a new direction
+//otherwise do nothing
+if (Number.isInteger(obj.x) && Number.isInteger(obj.y)) {
+	obj.direction = possibleDirection[Math.floor(Math.random() * possibleDirection.length];
+}
+```
+**Finally, ghosts only random a new direction when its coordinates are integers.**
 
 ## Chase Pacman with the shortest path
 After reading a lot of articles about Dijkstra's Algorithm and other shortest path finding algorithms, I decided to implement one of them in my game.
-It would be a bit different since Pacman doesn't have nodes (or vertices) since it is not a good solution to value every corners, intersection with numbers. While stucking a while, I saw this algorithm in [Dijkstra's Algorithm Wikipedia page](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm):
+It would be a bit different since Pacman doesn't have nodes (or vertices) and it is not a good solution to value every corners, intersection with numbers. While stucking a while, I saw this algorithm in [Dijkstra's Algorithm Wikipedia page](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm):
 
 <p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Dijkstras_progress_animation.gif"/>
