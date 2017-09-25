@@ -19,7 +19,9 @@ I am telling about that road, it can be splitted into 4 bullets:
 ## Randomly through map
 It was a bit tricky at my first approach, since every time HTML gets redraw using canvas, the ghosts don't move from 1 block to another block but 1/4 block to make game smooth. So they shouldn't seach for a random direction every step they take. But the range for them to move in a 90 degree angle is bigger than the block because it uses the same logic when user tries to control pacman:
 
-Because it randoms a new direction when it is able to turn into other sides but not the way back except when it can't move forward, when it turns right, in the first frame after that, technically it still can turn into the direction before. So sometimes when it turns left or right, it keeps moving forward and backward.
+<p align="center">
+<img src="https://odxwwq.bn1302.livefilestore.com/y4mzvZvsn6p_qk82jNKB2BUNtKvmRZINjDJdjLxTOiNo43jORy-JH026E0bS-vL1TmyB_VCjbexNtERU6rkoIT8WMrlF23Jrc5g76RLL8cFqjvhnRC0Md-YPfNbBB77W4BXc80qBljdBd5YkDGmDYap9_S0UOpBnRaB-e0kxd_ec7w6IdpMkxMriUAqMxnfjcE7pVbYEzVNgDJ5Ral_ePM3oA?width=516&height=273&cropmode=none" alt="character-turns"/></p>
+Because it randoms a new direction when it is able to turn into an other side but not the way back except when it can't move forward, when it turns right, in the first frame after that, technically it still be able to turn into the previous direction. So sometimes when it turns left or right, it keeps moving forward and backward.
 My friend, Chris said that "why don't let the ghost finished one block before thinks about changing its direction", it was not my solution at the end of the day but it made me realize that it would be something really close to the solution:
 
 ```js
@@ -57,6 +59,7 @@ function findWay(ind, departure, destination) {
 				value.prev = JSON.parse(JSON.stringify(queue[index]));
 				queue.push(value);
 
+				//if it reaches its target, assign to result and break the loop
 				if (value.x == destination.x && value.y == destination.y) {
 					result = value;
 				}
@@ -82,6 +85,7 @@ But the problem now is, after a very small amount of time, all ghosts go on a sa
 ## Chase Pacman with different paths
 I know that obviously there are several solution for this new problem, since I found [K shortest path routing algorithm](https://en.wikipedia.org/wiki/K_shortest_path_routing) immediately.
 However, instead of implementing a new algorithm, and being lazy of reading, I decided to modify a bit in my ***getAdjacences()*** function, by adding ***shuffle()*** to 4 adjacences of every point on the way to Pacman.
+
 At first:
 ```js
 adj = [{ x: point.x, y: point.y - 1 }, 

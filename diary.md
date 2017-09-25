@@ -20,11 +20,16 @@ Finally I have some jobs to make learning [AngularJS](https://angularjs.org/) no
  
 - **2017-09-11 (Finishing [Pacman javascript version](https://github.com/iamstevendao/pacman))**
 I am so happy right now. There were a lot of painful works to get to this point. I will write a post to celebrate this moment. **Ghosts** are getting smarter by chasing **pacman** in different ways, switching between chasing **pacman** and among **cherries**, and runing away when **pacman** gets its power >.<.This is how the game looks like:
-![Pacman](https://thumbs.gfycat.com/FantasticFondBarnowl-size_restricted.gif)
+
+<p align="center">
+<img alt="pacman" src="https://thumbs.gfycat.com/FantasticFondBarnowl-size_restricted.gif"/>
+</p> 
 
 - **2017-09-08 (Implement [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to [Pacman](https://github.com/iamstevendao/pacman))**
 I am really tired after such a day, but I need to write something before I forget all about it :)). I am on my way implementing Dijkstra's Algorithm to my Pacman projects, of course javascript version will be applied first. This is what it looks like so far:  
-![Pacman](https://thumbs.gfycat.com/QuickEveryAmericanbadger-size_restricted.gif)  
+<p align="center">
+<img alt="pacman" src="https://thumbs.gfycat.com/QuickEveryAmericanbadger-size_restricted.gif"/>
+</p> 
 Basically it works but doesn't satify me yet. I really want ghosts chase pacman but also have to be by different ways which increases the difficulty of the game. >.<, there are still a lot of things need to be done.
 
 - **2017-09-04 ([Steven's Blog](https://iamstevendao.github.io/blog) to be deployed)**  
