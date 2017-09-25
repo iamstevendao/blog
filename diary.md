@@ -5,6 +5,9 @@ permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
+- **2017-09-23 (Use AngularJS for my portfolio website)**
+Finally I have some jobs to make learning [AngularJS](https://angularjs.org/) not that boring, by using AngularJS for my [portfolio](https://iamstevendao.github.io/portfolio/). By applying [$http.get](https://docs.angularjs.org/api/ng/service/$http) to read JSON files instead of manually inserting in HTML file, it looks really good now, (not what it shows but the things behind).
+
 - **2017-09-19 (Start on [OneForth](https://github.com/iamstevendao/oneForth), a Desktop client for Everything I & you love)**  
 14:30 : Trying to push some Angularjs into my head  
 14:50 : Enchanted by a video about [Electron](https://github.com/electron/electron) even this was the second time I watched it  
