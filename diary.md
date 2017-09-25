@@ -54,6 +54,9 @@ From the idea of building a bundle of console on-school games running in Cordova
 - **2017-A-day-in-July (Dive into Javascript)**  
 After spending hours watching [The Coding Train](https://www.youtube.com/user/shiffman), I got 'something' with Javascript, it liked a little crush and I just want to jump into it. My Javascript started!!!
 
+- **2017-05-15 ([Front End Development Certificate](https://www.freecodecamp.org/iamstevendao/front-end-certification) at FreeCodeCamp)**  
+I found a really good place for practicing front-end things, called [FreeCodeCamp](https://www.freecodecamp.org/), I did a lot of Javascript and logic stuffs, most of them was easy because I was on [Codefights](https://codefights.com/profile/steven_dao) a lot before, but there are some really challeging ones. I got the certificate after 2 months of not-really-hard work (>.<)
+
 - **2017-A-day-in-April ([Portfolio](https://iamstevendao.github.io/portfolio/))**  
 I got rejected every where I applied for a position, I was asking myself many times, why? I had studied hard, worked hard, got certain achievements that my friends had to be jealous. I knew I could learn fast, do multi tasking but how to show it to recruiters when my English was not good enough, there must be a way. That was the time I started making my [portfolio](https://iamstevendao.github.io/portfolio/) which the idea came from everything inside a code editor. I am so proud of it, many people liked it, and I got more interview than before.
 
@@ -62,6 +65,9 @@ I and my girl friend want to store and keep our special dates, we had tried many
 
 - **2016-03-14 ([Superfast Dictionary](https://play.google.com/store/apps/details?id=fukie.sieunhanhav))**  
 After the meetup about [Firebase](https://firebase.google.com/), I got curious about **NoSQL**, after try out, I built my first application by 1 week of a painful fighting with **Android Studio** which was a totally strange thing with me. I was very happy because it was the first 'something' I could make my own.
+
+- **2015-A-day-in-September (Get an offer at Kaopiz)**
+A really life-changing event, I was just a 2nd year student, with a tiny knowledge of coding, but the Luck came in and I had got a job (>.<). I worked at [Kaopiz](http://kaopiz.com/ja/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AB%E3%82%AA%E3%83%94%E3%83%BC%E3%82%BA/#) in every time I didn't have classes as a freelancer for [Aromajoin](https://aromajoin.com/) where I got to learn a lot of C++ and [Openframework](http://openframeworks.cc/). Never forget that day!
 
 - ***Before that...***  
 There are a lot of things I want to write, but because this is the initial commit, then I leave this blank, but I promise I will be back soon.
