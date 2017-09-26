@@ -22,6 +22,22 @@ It was a bit tricky at my first approach, since every time HTML gets redraw usin
 <p align="center">
 <img src="https://odxwwq.bn1302.livefilestore.com/y4mzvZvsn6p_qk82jNKB2BUNtKvmRZINjDJdjLxTOiNo43jORy-JH026E0bS-vL1TmyB_VCjbexNtERU6rkoIT8WMrlF23Jrc5g76RLL8cFqjvhnRC0Md-YPfNbBB77W4BXc80qBljdBd5YkDGmDYap9_S0UOpBnRaB-e0kxd_ec7w6IdpMkxMriUAqMxnfjcE7pVbYEzVNgDJ5Ral_ePM3oA?width=516&height=273&cropmode=none" alt="character-turns"/></p>
 Because it randoms a new direction when it is able to turn into an other side but not the way back except when it can't move forward, when it turns right, in the first frame after that, technically it still be able to turn into the previous direction. So sometimes when it turns left or right, it keeps moving forward and backward.
+
+```js
+//example of moving in every frame
+switch (obj.direction) {
+			case DIRECTION.RIGHT:
+				if (isPossible(DIRECTION.RIGHT)) {
+					//move 1/4 block 
+					obj.x += 1 / 4;
+					//if move by x, make y in the middle
+					obj.y = Math.round(obj.y);
+				}
+				break;
+				...
+}
+```
+
 My friend, Chris said that "why don't let the ghost finished one block before thinks about changing its direction", it was not my solution at the end of the day but it made me realize that it would be something really close to the solution:
 
 ```js
