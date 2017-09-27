@@ -26,47 +26,46 @@ For example, to have:
 what I need to put in HTML:
 ```html
 <!-- June 2017 -->
-				<p>
+<p>
 
-					<!-- { "June 2017" , "Software Developer & Customer Support at Becas Technology " },  -->
+	<!-- { "June 2017" , "Software Developer & Customer Support at Becas Technology " },  -->
 
-					<span class="cl-txt tab2 w-wk">{</span>
-					<span class="cl-str w-wk">"</span>
-					<span class="cl-str">June 2017</span>
-					<span class="cl-str w-wk">"</span>
-					<span class="cl-txt w-wk">,</span>
-					<span class="cl-str w-wk">"</span>
-					<span class="cl-str">Software Developer & Customer Support at
-						<a target="_blank" href="http://www.becas.com.au/">
-							<span class="link link-string">Becas Technology</span>
-					</a>
-					<span class="w-wk">"</span>
-					</span>
-					<span class="cl-txt w-wk">},</span>
-					<br>
+	<span class="cl-txt tab2 w-wk">{</span>
+	<span class="cl-str w-wk">"</span>
+	<span class="cl-str">June 2017</span>
+	<span class="cl-str w-wk">"</span>
+	<span class="cl-txt w-wk">,</span>
+	<span class="cl-str w-wk">"</span>
+	<span class="cl-str">Software Developer & Customer Support at
+		<a target="_blank" href="http://www.becas.com.au/">
+			<span class="link link-string">Becas Technology</span>
+		</a>
+		<span class="w-wk">"</span>
+	</span>
+	<span class="cl-txt w-wk">},</span>
+	<br>
 
-					<!-- /* Develop, implement applications, APIs for paging system solutions,	-->
+	<!-- /* Develop, implement applications, APIs for paging system solutions,	-->
+	<span class="cl-cmt tab2 w-wk">/*</span>
+	<span class="cl-cmt">Develop, implement applications, APIs for paging system solutions,</span>
+	<br>
 
-					<span class="cl-cmt tab2 w-wk">/*</span>
-					<span class="cl-cmt">Develop, implement applications, APIs for paging system solutions,</span>
-					<br>
+	<!-- restaurant and gas station management. */ -->
 
-					<!-- restaurant and gas station management. */ -->
+	<span class="cl-cmt tab2">restaurant and gas station management.</span>
+	<span class="cl-cmt w-wk">*/</span>
+	<br>
 
-					<span class="cl-cmt tab2">restaurant and gas station management.</span>
-					<span class="cl-cmt w-wk">*/</span>
-					<br>
+	<!-- // Customer support with errors, bugs and required implementation. -->
 
-					<!-- // Customer support with errors, bugs and required implementation. -->
-
-					<span class="cl-cmt tab2 w-wk">//</span>
-					<span class="cl-cmt">Customer support with errors, bugs and required implementation.</span>
-				</p>
+	<span class="cl-cmt tab2 w-wk">//</span>
+	<span class="cl-cmt">Customer support with errors, bugs and required implementation.</span>
+</p>
 ```
 
-such a pain, isn't it. Moreover, I want to highlight what needs to be highlighted and make it outstanding from others, so I put class **w-wk** in those to change its opacity.
+such a pain, isn't it. Moreover, I want to highlight what needs to be highlighted and make it outstanding from others, so I put class `w-wk` in those to change its opacity.
 
-It also means that for **3 lines** in the website, I need round **30 lines** of code in my HTML file, it lead to the size of ~ **800 lines** of code in my HTML file (wow). AND, when ever I want to change a tiny part in my display, for example when I want to have a space between **{** and **"**, I need to change every part it occurs in the code.
+It also means that for **3 lines** in the website, I need round **30 lines** of code in my HTML file, it lead to the size of ~ **800 lines** of code in my HTML file (wow). AND, when ever I want to change a tiny part in my display, for example when I want to have a space between `{` and `"`, I need to change every part it occurs in the code.
 
 All of a sudden, I need to prepare up AngularJS for my work.
 
@@ -74,24 +73,24 @@ All of a sudden, I need to prepare up AngularJS for my work.
 
 ```html
 <!-- Timeline Content -->
-				<p ng-repeat="event in timeline">
-					<span class="cl-txt tab2 w-wk">{</span>
-					<span class="cl-str"><span class="w-wk">"</span>{{event.date}}<span class="w-wk">"</span></span>
-					<span class="cl-txt w-wk">,</span>
-					<span class="cl-str"><span class="w-wk">"</span>{{event.job.title}}</span><a ng-if="event.job.hasOwnProperty('place')"
+<p ng-repeat="event in timeline">
+	<span class="cl-txt tab2 w-wk">{</span>
+	<span class="cl-str"><span class="w-wk">"</span>{{event.date}}<span class="w-wk">"</span></span>
+	<span class="cl-txt w-wk">,</span>
+	<span class="cl-str"><span class="w-wk">"</span>{{event.job.title}}</span><a ng-if="event.job.hasOwnProperty('place')"
 					  ng-href="{{event.job.link}}">
-								<span class="cl-str lk-str"> {{event.job.place}}</span></a><span class="w-wk cl-str">"</span>
-					<span class="cl-txt w-wk">},</span>
-					<br>
-					<span class="cl-cmt" ng-repeat="desc in event.description">
-								<span class="tab2 w-wk">//</span>
-					<span>{{desc}}</span>
-					<br>
-					</span>
-				</p>
+	<span class="cl-str lk-str"> {{event.job.place}}</span></a><span class="w-wk cl-str">"</span>
+	<span class="cl-txt w-wk">},</span>
+	<br>
+	<span class="cl-cmt" ng-repeat="desc in event.description">
+		<span class="tab2 w-wk">//</span>
+		<span>{{desc}}</span>
+		<br>
+	</span>
+</p>
 ```
 
-these lines are not short, kinda same with the previous one, BUT, it is for the **whole timeline**, by using **ng-repeat** at the front and [$http.get](https://docs.angularjs.org/api/ng/service/$http) in the back: 
+these lines are not short, kinda same with the previous one, BUT, it is for the **whole timeline**, by using `ng-repeat` at the front and `$http.get`(https://docs.angularjs.org/api/ng/service/$http) in the back: 
 
 ```js
 //timeline

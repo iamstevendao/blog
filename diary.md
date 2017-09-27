@@ -6,7 +6,7 @@ permalink: /diary/
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
 - **2017-09-24 (Start with Socket Programming at work)**
-I did a lot of Sockets and TCP/IP recently at work since I need to create a TCP/IP server and clients to apply widely for my company. It works in C#, probably with a process running in the background only, but we need to consider about UI/UX later. The tests and practices are being updated into [socket-program](https://github.com/iamstevendao/socket-program).
+I did a lot of Socket and TCP/IP recently at work since I need to create a TCP/IP server and clients to apply widely for my company. It works in C#, probably with a process running in the background only, but we need to consider about UI/UX later. The tests and practices are being updated into [socket-program](https://github.com/iamstevendao/socket-program).
 
 - **2017-09-23 (Use AngularJS for my portfolio website)**
 Finally I have some jobs to make learning [AngularJS](https://angularjs.org/) not that boring, by using AngularJS for my [portfolio](https://iamstevendao.github.io/portfolio/). By applying [$http.get](https://docs.angularjs.org/api/ng/service/$http) to read JSON files instead of manually inserting in HTML file, it looks really good now, (not what it shows but the things behind).
