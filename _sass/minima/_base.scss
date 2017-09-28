@@ -139,8 +139,10 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #1E1E1E;//eef
-  color: #D4D4D4;
+  background-color: #1E1E1E;//
+  color: #D4D4D4;//
+  font-family: "Menlo", "Monaco";//
+  font-size: 13px;
 }
 
 code {

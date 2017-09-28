@@ -79,4 +79,4 @@ After the meetup about [Firebase](https://firebase.google.com/), I got curious a
 A really life-changing event, I was just a 2nd year student, with a tiny knowledge of coding, but the Luck came in and I had got a job (>.<). I worked at [Kaopiz](http://kaopiz.com/ja/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AB%E3%82%AA%E3%83%94%E3%83%BC%E3%82%BA/#) in every time I didn't have classes as a freelancer for [Aromajoin](https://aromajoin.com/) where I got to learn a lot of C++ and [Openframework](http://openframeworks.cc/). Never forget that day!
 
 - ***Before that...***  
-There are a lot of things I want to write, but because this is the initial commit, then I leave this blank, but I promise I will be back soon.
+to be continued...
