@@ -29,7 +29,6 @@ what I need to put in HTML:
 <p>
 
 	<!-- { "June 2017" , "Software Developer & Customer Support at Becas Technology " },  -->
-
 	<span class="cl-txt tab2 w-wk">{</span>
 	<span class="cl-str w-wk">"</span>
 	<span class="cl-str">June 2017</span>
@@ -51,13 +50,11 @@ what I need to put in HTML:
 	<br>
 
 	<!-- restaurant and gas station management. */ -->
-
 	<span class="cl-cmt tab2">restaurant and gas station management.</span>
 	<span class="cl-cmt w-wk">*/</span>
 	<br>
 
 	<!-- // Customer support with errors, bugs and required implementation. -->
-
 	<span class="cl-cmt tab2 w-wk">//</span>
 	<span class="cl-cmt">Customer support with errors, bugs and required implementation.</span>
 </p>
@@ -90,7 +87,7 @@ All of a sudden, I need to prepare up AngularJS for my work.
 </p>
 ```
 
-these lines are not short, kinda same with the previous one, BUT, it is for the **whole timeline**, by using `ng-repeat` at the front and `$http.get`(https://docs.angularjs.org/api/ng/service/$http) in the back: 
+these lines are not short, kinda same with the previous one, BUT, it is for the **whole timeline**, by using `ng-repeat` at the front and [`$http.get`](https://docs.angularjs.org/api/ng/service/$http) in the back: 
 
 ```js
 //timeline
@@ -133,6 +130,6 @@ all I have to do now is to insert everything I want to insert in a **json file**
 ]
 ```
 
-It is all the basic Angular stuff, but it is how my index.html file get reduced from **800 lines** into **300 lines** of code. And now, I even can think about changing theme for my portfolio without touching every part of the page.
+It is all the basic Angular stuff, but it is how my **index.html** file get reduced from **800 lines** into **300 lines** of code. And now, I even can think about changing theme for my portfolio without touching every part of the page.
 
 That's all, how I angularized my portfolio webpage.

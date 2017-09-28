@@ -5,6 +5,9 @@ permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
+- **2017-09-28 (Finish Pacman C++)**  
+I have been spending a lot of time trying to figure out how the game is so laggy until I have a talk with my C++ teacher, he advised me about use the RELEASE version instead because of the [iterations problem](https://stackoverflow.com/questions/12631609/why-is-this-code-100-times-slower-in-debug) in the Debug mode of Visual C++ 2010. It turns out to work perfectly in the release mode.
+
 - **2017-09-24 (Start with Socket Programming at work)**
 I did a lot of Socket and TCP/IP recently at work since I need to create a TCP/IP server and clients to apply widely for my company. It works in C#, probably with a process running in the background only, but we need to consider about UI/UX later. The tests and practices are being updated into [socket-program](https://github.com/iamstevendao/socket-program).
 
@@ -12,11 +15,11 @@ I did a lot of Socket and TCP/IP recently at work since I need to create a TCP/I
 Finally I have some jobs to make learning [AngularJS](https://angularjs.org/) not that boring, by using AngularJS for my [portfolio](https://iamstevendao.github.io/portfolio/). By applying [$http.get](https://docs.angularjs.org/api/ng/service/$http) to read JSON files instead of manually inserting in HTML file, it looks really good now, (not what it shows but the things behind).
 
 - **2017-09-19 (Start on [OneForth](https://github.com/iamstevendao/oneForth), a Desktop client for Everything I & you love)**  
-14:30 : Trying to push some Angularjs into my head  
-14:50 : Enchanted by a video about [Electron](https://github.com/electron/electron) even this was the second time I watched it  
-20:00 : Reading, finding projects powered by Electron, got enchanted again >.<  
-23:00 : Come up with an idea about a client for 9gag, messenger, twitter, ... all the things I need to open in my Chrome after get home.  
-24:00 : Create [OneForth](https://github.com/iamstevendao/oneForth), sucessfully open 9GAG (not that bad).
+*14:30* : Trying to push some Angularjs into my head  
+*14:50* : Enchanted by a video about [Electron](https://github.com/electron/electron) even this was the second time I watched it  
+*20:00* : Reading, finding projects powered by Electron, got enchanted again >.<  
+*23:00* : Come up with an idea about a client for 9gag, messenger, twitter, ... all the things I need to open in my Chrome after get home.  
+*24:00* : Create [OneForth](https://github.com/iamstevendao/oneForth), sucessfully open 9GAG (not that bad).
  
 - **2017-09-11 (Finishing [Pacman javascript version](https://github.com/iamstevendao/pacman))**
 I am so happy right now. There were a lot of painful works to get to this point. I will write a post to celebrate this moment. **Ghosts** are getting smarter by chasing **pacman** in different ways, switching between chasing **pacman** and among **cherries**, and runing away when **pacman** gets its power >.<.This is how the game looks like:
@@ -26,11 +29,12 @@ I am so happy right now. There were a lot of painful works to get to this point.
 </p> 
 
 - **2017-09-08 (Implement [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to [Pacman](https://github.com/iamstevendao/pacman))**
-I am really tired after such a day, but I need to write something before I forget all about it :)). I am on my way implementing Dijkstra's Algorithm to my Pacman projects, of course javascript version will be applied first. This is what it looks like so far:  
+I am really tired after such a day, but I need to write something before I forget all about it :)). I am on my way implementing Dijkstra's Algorithm to my Pacman projects, of course javascript version will be applied first.  
+Basically it works but doesn't satify me yet. I really want ghosts chase pacman but also have to be by different ways which increases the difficulty of the game. >.<, there are still a lot of things need to be done.  
+This is what it looks like so far:
 <p align="center">
 <img alt="pacman" src="https://thumbs.gfycat.com/QuickEveryAmericanbadger-size_restricted.gif"/>
-</p> 
-Basically it works but doesn't satify me yet. I really want ghosts chase pacman but also have to be by different ways which increases the difficulty of the game. >.<, there are still a lot of things need to be done.
+</p>
 
 - **2017-09-04 ([Steven's Blog](https://iamstevendao.github.io/blog) to be deployed)**  
 I start writing blog (>.<), after found a really impressive persional blog of [Evan Hahn](http://evanhahn.com/). It urged me and I belive I can write my own blog and [my diary](https://github.com/iamstevendao/StevensStory) also be moved into a page: [Steven's Diary](https://iamstevendao.github.io/blog/diary/).  
