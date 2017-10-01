@@ -7,3 +7,5 @@ Source code for [Steven's Blog](https://iamstevendao.github.io/blog/), is powere
 ## Credits
 - [IcoMoon.io](https://icomoon.io/) (icon-web.svg)
 - [Minima theme](https://github.com/jekyll/minima)
+
+made with :heart: by [Steven](https://github.com/iamstevendao) powered by [Jekyll](https://github.com/jekyll/jekyll).
