@@ -5,7 +5,10 @@ permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
-- **2017-09-28 (Finish Pacman C++)**  
+- **2017-10-02 (Finish Angularizing [Portfolio](https://iamstevendao.github.io/portfolio/))**  
+From the purpose of [replacing the whole content](https://iamstevendao.github.io/blog/general/2017/09/27/angularize-portfolio.html) into **JSON** files to handle by AngularJS, I totally replaced everything in JQuery by AngularJS. It took awhile to transfer easy-jquery stuff like **background-image slides**, **hovering** and **scroll** effects.
+
+- **2017-09-28 (Finish [Pacman C++](https://github.com/iamstevendao/pacman_cpp))**  
 I have been spending a lot of time trying to figure out how the game is so laggy until I have a talk with my C++ teacher, he advised me about use the RELEASE version instead because of the [iterations problem](https://stackoverflow.com/questions/12631609/why-is-this-code-100-times-slower-in-debug) in the Debug mode of Visual C++ 2010. It turns out to work perfectly in the release mode.
 
 - **2017-09-24 (Start with Socket Programming at work)**

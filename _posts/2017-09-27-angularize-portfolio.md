@@ -28,35 +28,35 @@ what I need to put in HTML:
 <!-- June 2017 -->
 <p>
 
-	<!-- { "June 2017" , "Software Developer & Customer Support at Becas Technology " },  -->
-	<span class="cl-txt tab2 w-wk">{</span>
-	<span class="cl-str w-wk">"</span>
-	<span class="cl-str">June 2017</span>
-	<span class="cl-str w-wk">"</span>
-	<span class="cl-txt w-wk">,</span>
-	<span class="cl-str w-wk">"</span>
-	<span class="cl-str">Software Developer & Customer Support at
-		<a target="_blank" href="http://www.becas.com.au/">
-			<span class="link link-string">Becas Technology</span>
-		</a>
-		<span class="w-wk">"</span>
-	</span>
-	<span class="cl-txt w-wk">},</span>
-	<br>
+  <!-- { "June 2017" , "Software Developer & Customer Support at Becas Technology " },  -->
+  <span class="cl-txt tab2 w-wk">{</span>
+  <span class="cl-str w-wk">"</span>
+  <span class="cl-str">June 2017</span>
+  <span class="cl-str w-wk">"</span>
+  <span class="cl-txt w-wk">,</span>
+  <span class="cl-str w-wk">"</span>
+  <span class="cl-str">Software Developer & Customer Support at
+    <a target="_blank" href="http://www.becas.com.au/">
+      <span class="link link-string">Becas Technology</span>
+    </a>
+    <span class="w-wk">"</span>
+  </span>
+  <span class="cl-txt w-wk">},</span>
+  <br>
 
-	<!-- /* Develop, implement applications, APIs for paging system solutions,	-->
-	<span class="cl-cmt tab2 w-wk">/*</span>
-	<span class="cl-cmt">Develop, implement applications, APIs for paging system solutions,</span>
-	<br>
+  <!-- /* Develop, implement applications, APIs for paging system solutions,	-->
+  <span class="cl-cmt tab2 w-wk">/*</span>
+  <span class="cl-cmt">Develop, implement applications, APIs for paging system solutions,</span>
+  <br>
 
-	<!-- restaurant and gas station management. */ -->
-	<span class="cl-cmt tab2">restaurant and gas station management.</span>
-	<span class="cl-cmt w-wk">*/</span>
-	<br>
+  <!-- restaurant and gas station management. */ -->
+  <span class="cl-cmt tab2">restaurant and gas station management.</span>
+  <span class="cl-cmt w-wk">*/</span>
+  <br>
 
-	<!-- // Customer support with errors, bugs and required implementation. -->
-	<span class="cl-cmt tab2 w-wk">//</span>
-	<span class="cl-cmt">Customer support with errors, bugs and required implementation.</span>
+  <!-- // Customer support with errors, bugs and required implementation. -->
+  <span class="cl-cmt tab2 w-wk">//</span>
+  <span class="cl-cmt">Customer support with errors, bugs and required implementation.</span>
 </p>
 ```
 
@@ -71,19 +71,19 @@ All of a sudden, I need to prepare up AngularJS for my work.
 ```html
 <!-- Timeline Content -->
 <p ng-repeat="event in timeline">
-	<span class="cl-txt tab2 w-wk">{</span>
-	<span class="cl-str"><span class="w-wk">"</span>{{event.date}}<span class="w-wk">"</span></span>
-	<span class="cl-txt w-wk">,</span>
-	<span class="cl-str"><span class="w-wk">"</span>{{event.job.title}}</span><a ng-if="event.job.hasOwnProperty('place')"
-					  ng-href="{{event.job.link}}">
-	<span class="cl-str lk-str"> {{event.job.place}}</span></a><span class="w-wk cl-str">"</span>
-	<span class="cl-txt w-wk">},</span>
-	<br>
-	<span class="cl-cmt" ng-repeat="desc in event.description">
-		<span class="tab2 w-wk">//</span>
-		<span>{{desc}}</span>
-		<br>
-	</span>
+  <span class="cl-txt tab2 w-wk">{</span>
+  <span class="cl-str"><span class="w-wk">"</span>{{event.date}}<span class="w-wk">"</span></span>
+  <span class="cl-txt w-wk">,</span>
+  <span class="cl-str"><span class="w-wk">"</span>{{event.job.title}}</span><a ng-if="event.job.hasOwnProperty('place')"
+            ng-href="{{event.job.link}}">
+  <span class="cl-str lk-str"> {{event.job.place}}</span></a><span class="w-wk cl-str">"</span>
+  <span class="cl-txt w-wk">},</span>
+  <br>
+  <span class="cl-cmt" ng-repeat="desc in event.description">
+    <span class="tab2 w-wk">//</span>
+    <span>{{desc}}</span>
+    <br>
+  </span>
 </p>
 ```
 
@@ -91,10 +91,10 @@ these lines are not short, kinda same with the previous one, BUT, it is for the 
 
 ```js
 //timeline
-    $http.get('json/timeline.json')
-      .then(function (res) {
-        $scope.timeline = res.data;
-      });
+$http.get('json/timeline.json')
+  .then(function (res) {
+    $scope.timeline = res.data;
+  });
 ```
 
 all I have to do now is to insert everything I want to insert in a **json file**, Angular will take care the rest

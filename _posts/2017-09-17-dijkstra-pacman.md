@@ -26,15 +26,15 @@ Because it randoms a new direction when it is able to turn into an other side bu
 ```js
 //example of moving in every frame
 switch (obj.direction) {
-			case DIRECTION.RIGHT:
-				if (isPossible(DIRECTION.RIGHT)) {
-					//move 1/4 block 
-					obj.x += 1 / 4;
-					//if move by x, make y in the middle
-					obj.y = Math.round(obj.y);
-				}
-				break;
-				...
+  case DIRECTION.RIGHT:
+    if (isPossible(DIRECTION.RIGHT)) {
+      //move 1/4 block 
+      obj.x += 1 / 4;
+      //if move by x, make y in the middle
+      obj.y = Math.round(obj.y);
+    }
+    break;
+    ...
 }
 ```
 
@@ -44,7 +44,7 @@ My friend, Chris said that "why don't let the ghost finished one block before th
 //if the ghost is at the center of a block, random a new direction
 //otherwise do nothing
 if (Number.isInteger(obj.x) && Number.isInteger(obj.y)) {
-	obj.direction = possibleDirection[Math.floor(Math.random() * possibleDirection.length];
+  obj.direction = possibleDirection[Math.floor(Math.random() * possibleDirection.length];
 }
 ```
 **Finally, ghosts only random a new direction when its coordinates are integers.**
@@ -61,39 +61,39 @@ it seems to be exactly what I was looking for, this is how the code looks like:
 
 ```js
 function findWay(ind, departure, destination) {
-		//if arrival and departure have a same coordinates, return a blank array
-		if (departure.x == destination.x && departure.y == destination.y)
-			return [];
-		//push departure to the queue as the start point
-		let queue = [departure], index = 0, result = null;
+  //if arrival and departure have a same coordinates, return a blank array
+  if (departure.x == destination.x && departure.y == destination.y)
+    return [];
+  //push departure to the queue as the start point
+  let queue = [departure], index = 0, result = null;
 
-		//keep finding a way until get a result
-		while (result == null) {
-			let adj = getAdjacences(ind, queue, queue[index]);
-			adj.forEach((value) => {
-				//deep copy the adjacence and push to queue
-				value.prev = JSON.parse(JSON.stringify(queue[index]));
-				queue.push(value);
+  //keep finding a way until get a result
+  while (result == null) {
+    let adj = getAdjacences(ind, queue, queue[index]);
+    adj.forEach((value) => {
+      //deep copy the adjacence and push to queue
+      value.prev = JSON.parse(JSON.stringify(queue[index]));
+      queue.push(value);
 
-				//if it reaches its target, assign to result and break the loop
-				if (value.x == destination.x && value.y == destination.y) {
-					result = value;
-				}
-			});
-			index++;
-		}
+      //if it reaches its target, assign to result and break the loop
+      if (value.x == destination.x && value.y == destination.y) {
+        result = value;
+      }
+    });
+    index++;
+  }
 
-		//inverse nextMoves
-		let nextMoves = [];
-		let curr = result;
-		do {
-			nextMoves.push({ x: curr.x, y: curr.y });
-			curr = curr.prev;
-		} while (curr != null);
+  //inverse nextMoves
+  let nextMoves = [];
+  let curr = result;
+  do {
+    nextMoves.push({ x: curr.x, y: curr.y });
+    curr = curr.prev;
+  } while (curr != null);
 
-    //return nextMoves without the first one (the ghost itself)
-		return nextMoves.reverse().splice(1);
-	}
+  //return nextMoves without the first one (the ghost itself)
+  return nextMoves.reverse().splice(1);
+}
 ```
 Basically it keeps pushing adjacences (4 directions beside) of all current points to the queue, until it meets Pacman.
 But the problem now is, after a very small amount of time, all ghosts go on a same way to chase Pacman, because the starting points of ghosts are *kinda* near to each other (inside a 5*3 block in the center of the map).
@@ -130,11 +130,11 @@ Firstly, I need a random, for each ghost will have **80%** of chasing Pacman and
 
 ```js
 function generateTarget(obj) {
-	obj.path = []; //clear current path of course
-	if (cherries.length > 0) // if there are cherries on the map
-		obj.target = Math.floor(Math.random() * NUMBER.GHOST) > NUMBER.GHOST / 4 ? -1 : Math.floor(Math.random() * cherries.length);
-	else
-		obj.target = -1;// -1 means pacman, others mean the index of cherries in the list
+  obj.path = []; //clear current path of course
+  if (cherries.length > 0) // if there are cherries on the map
+    obj.target = Math.floor(Math.random() * NUMBER.GHOST) > NUMBER.GHOST / 4 ? -1 : Math.floor(Math.random() * cherries.length);
+  else
+    obj.target = -1;// -1 means pacman, others mean the index of cherries in the list
 }
 ```
 
