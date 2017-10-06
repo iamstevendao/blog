@@ -5,6 +5,9 @@ permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
+- **2017-10-06 (Start using [StandardJS](https://github.com/standard/standard))**
+I am starting using [StandardJS](https://github.com/standard/standard) for my Javascript projects, which is really nice to have a tool and standard of Javascript coding style. I used to use [Eslint](https://eslint.org/) but it needs nodejs handy inside the project and default formatting of VSCode which is simply code. But I think that StandardJS would be truly a standard of Javascript.
+
 - **2017-10-02 (Finish Angularizing [Portfolio](https://iamstevendao.github.io/portfolio/))**  
 From the purpose of [replacing the whole content](https://iamstevendao.github.io/blog/general/2017/09/27/angularize-portfolio.html) into **JSON** files to handle by AngularJS, I totally replaced everything in JQuery by AngularJS. It took awhile to transfer easy-jquery stuff like **background-image slides**, **hovering** and **scroll** effects.
 
