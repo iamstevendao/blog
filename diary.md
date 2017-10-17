@@ -5,6 +5,9 @@ permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
+- **2017-10-14 (Holiday in VietNam :tada:)**  
+Back to VN in my holiday, good time to relax and put aside my works + try to push up learning [ASP.NET](https://github.com/iamstevendao/hello-world-dotnet) and working on [OneForth](https://github.com/iamstevendao/oneForth).
+
 - **2017-10-06 (Start using [StandardJS](https://github.com/standard/standard))**
 I am starting using [StandardJS](https://github.com/standard/standard) for my Javascript projects, which is really nice to have a tool and standard of Javascript coding style. I used to use [Eslint](https://eslint.org/) but it needs nodejs handy inside the project and default formatting of VSCode which is simply code. But I think that StandardJS would be truly a standard of Javascript.
 
