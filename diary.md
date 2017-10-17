@@ -6,7 +6,10 @@ permalink: /diary/
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
 - **2017-10-14 (Holiday in VietNam :tada:)**  
-Back to VN in my holiday, good time to relax and put aside my works + try to push up learning [ASP.NET](https://github.com/iamstevendao/hello-world-dotnet) and working on [OneForth](https://github.com/iamstevendao/oneForth).
+Back to VN in my holiday, good time to relax and put aside my works + try to push up [learning ASP.NET](https://github.com/iamstevendao/hello-world-dotnet) and working on [OneForth](https://github.com/iamstevendao/oneForth).
+
+- **2017-10-12 (Learn [ASP.NET](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app-xplat/start-mvc) with VSCode and MacOS)**  
+As a project of my work at [ACE Tuition Center](http://acetuitioncentre.com.au/), a startup with nice people, to create a system for school-teacher-student-parent to help students learn faster and funnier with games, score and quizzes. I am required to work with ASP.NET MVC 5 with AngularJS so my actions will be to go throught the [tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app-xplat/start-mvc), make an [repo](https://github.com/iamstevendao/hello-world-dotnet) and start diving into it.
 
 - **2017-10-06 (Start using [StandardJS](https://github.com/standard/standard))**
 I am starting using [StandardJS](https://github.com/standard/standard) for my Javascript projects, which is really nice to have a tool and standard of Javascript coding style. I used to use [Eslint](https://eslint.org/) but it needs nodejs handy inside the project and default formatting of VSCode which is simply code. But I think that StandardJS would be truly a standard of Javascript.
