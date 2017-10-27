@@ -5,8 +5,8 @@ permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
-- **2017-10-27 (Make games with Phaser.io)**  
-As a need for my new projects at work, I am doing some game-dev with Phaser.io. The first one is based on the tutorial, I called it [Phaser](https://github.com/iamstevendao/phaser).
+- **2017-10-27 (Make games with [Phaser.io](http://phaser.io/))**  
+As a need for my new projects at work, I am doing some game-dev with [Phaser.io](http://phaser.io/). The first one is based on the tutorial, I called it [Phaser](https://github.com/iamstevendao/phaser), expecting that I will make it sexier than the original version.
 
 - **2017-10-14 (Holiday in VietNam :tada:)**  
 Back to VN in my holiday, good time to relax and put aside my works + try to push up [learning ASP.NET](https://github.com/iamstevendao/hello-world-dotnet) and working on [OneForth](https://github.com/iamstevendao/oneForth).
