@@ -5,13 +5,13 @@ permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
-- **2017-11-03 (Do some [Pug](https://github.com/pugjs/pug), [Glitch](https://glitch.com/), know what the [boilerplate](https://github.com/sahat/hackathon-starter) is)**
+- **2017-11-03 (Do some [Pug](https://github.com/pugjs/pug), [Glitch](https://glitch.com/), know what the [boilerplate](https://github.com/sahat/hackathon-starter) is)**  
 What a day!!!, I do learn a lot today while doing [timestamp-api-microserver](https://github.com/iamstevendao/timestamp-api), my very first nodejs server as a project of FreeCodeCamp. Really impressed by [Pug](https://github.com/pugjs/pug)'s syntax, helps me a lot.  
 
 - **2017-11-01 (Do BackEndCertificate of [FreeCodeCamp](https://www.freecodecamp.org))**  
 Doing some practices of Back End Certificate Course while doing Phaser.io, I switch between them whenever get bored.
 
-- **2017-10-30 (Remake [Snake game](https://github.com/iamstevendao/snake/tree/master) with Phaser.io)**
+- **2017-10-30 (Remake [Snake game](https://github.com/iamstevendao/snake/tree/master) with Phaser.io)**  
 Remake my very first Javascript game with Phaser.io, it's much easier to handle the built-in physics from Phaser.io than just drawing in HTML Canvas, and it looks more structured with Phaser.io. But I found some cons as well, will find out they are Phaser's limitation or myself doesn't have enough knowledge about Phaser.io
 
 - **2017-10-27 (Make games with [Phaser.io](http://phaser.io/))**  
