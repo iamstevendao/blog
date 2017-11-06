@@ -8,6 +8,9 @@ permalink: /diary/
 - **2017-11-06 (Finish [url-shortener](https://iamsd-url-shortener.glitch.me/), my first MongoDB-NodeJS)**  
 Yay!!! After hours trying to connect NodeJS vs [Atlas](https://www.mongodb.com/cloud/atlas) without any hopes, I ended up with [mLab](https://mlab.com/home) and I have to admit that it is much easier. Then I successfully deployed [url-shortener](https://iamsd-url-shortener.glitch.me/), my project at FreeCodeCamp to Glitch.  
 
+- **2017-11-05 (My own [nodejs-boilerplate](https://github.com/iamstevendao/boilerplate-nodejs) powered by [megaboilerplate](http://megaboilerplate.com))**  
+My customized nodejs boilerplate, I update Jade to Pug, and use [mongodb](https://www.npmjs.com/package/mongodb) instead of [mongoose](https://www.npmjs.com/package/mongoose).
+
 - **2017-11-03 (Do some [Pug](https://github.com/pugjs/pug), [Glitch](https://glitch.com/), know what the [boilerplate](https://github.com/sahat/hackathon-starter) is)**  
 What a day!!!, I do learn a lot today while doing [timestamp-api-microserver](https://github.com/iamstevendao/timestamp-api), my very first nodejs server as a project of FreeCodeCamp. Really impressed by [Pug](https://github.com/pugjs/pug)'s syntax, helps me a lot.  
 
