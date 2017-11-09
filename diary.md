@@ -5,8 +5,8 @@ permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
-- **2017-11-06 (Finish [url-shortener](https://iamsd-url-shortener.glitch.me/), my first MongoDB-NodeJS)**  
-Yay!!! After hours trying to connect NodeJS vs [Atlas](https://www.mongodb.com/cloud/atlas) without any hopes, I ended up with [mLab](https://mlab.com/home) and I have to admit that it is much easier. Then I successfully deployed [url-shortener](https://iamsd-url-shortener.glitch.me/), my project at FreeCodeCamp to Glitch.  
+- **2017-11-06 (Finish [url-shortener](https://iamsd-url-shortener.glitch.me/), my first MongoDB-NodeJS server)**  
+Yay!!! After hours trying to connect NodeJS vs [Atlas](https://www.mongodb.com/cloud/atlas) without any hopes, I ended up with [mLab](https://mlab.com/home) and I have to admit that it is much easier. Then I successfully deployed [url-shortener](https://iamsd-url-shortener.glitch.me/), a project at FreeCodeCamp to Glitch.  
 
 - **2017-11-05 (My own [nodejs-boilerplate](https://github.com/iamstevendao/boilerplate-nodejs) powered by [megaboilerplate](http://megaboilerplate.com))**  
 My customized nodejs boilerplate, I update Jade to Pug, and use [mongodb](https://www.npmjs.com/package/mongodb) instead of [mongoose](https://www.npmjs.com/package/mongoose).
@@ -17,7 +17,7 @@ What a day!!!, I do learn a lot today while doing [timestamp-api-microserver](ht
 - **2017-11-01 (Do BackEndCertificate of [FreeCodeCamp](https://www.freecodecamp.org))**  
 Doing some practices of Back End Certificate Course while doing Phaser.io, I switch between them whenever get bored.
 
-- **2017-10-30 (Remake [Snake game](https://github.com/iamstevendao/snake/tree/master) with Phaser.io)**  
+- **2017-10-30 (Remake [Snake game](https://github.com/iamstevendao/snake) with Phaser.io)**  
 Remake my very first Javascript game with Phaser.io, it's much easier to handle the built-in physics from Phaser.io than just drawing in HTML Canvas, and it looks more structured with Phaser.io. But I found some cons as well, will find out they are Phaser's limitation or myself doesn't have enough knowledge about Phaser.io
 
 - **2017-10-27 (Make games with [Phaser.io](http://phaser.io/))**  
@@ -30,7 +30,7 @@ Back to VN in my holiday, good time to relax and put aside my works + try to pus
 As a project of my work at [ACE Tuition Center](http://acetuitioncentre.com.au/), a startup with nice people, to create a system for school-teacher-student-parent to help students learn faster and funnier with games, score and quizzes. I am required to work with ASP.NET MVC 5 with AngularJS so my actions will be to go throught the [tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app-xplat/start-mvc), make an [repo](https://github.com/iamstevendao/hello-world-dotnet) and start diving into it.
 
 - **2017-10-06 (Start using [StandardJS](https://github.com/standard/standard))**
-I am starting using [StandardJS](https://github.com/standard/standard) for my Javascript projects, which is really nice to have a tool and standard of Javascript coding style. I used to use [Eslint](https://eslint.org/) but it needs nodejs handy inside the project and default formatting of VSCode which is simply code. But I think that StandardJS would be truly a standard of Javascript.
+I am starting using [StandardJS](https://github.com/standard/standard) for my Javascript projects, which is really nice to have a tool and standard of Javascript coding style. I used to use [Eslint](https://eslint.org/) but it needs nodejs handy inside the project and default formatting of VSCode which is simply good. But I think that StandardJS would be truly a standard of Javascript.
 
 - **2017-10-02 (Finish Angularizing [Portfolio](https://iamstevendao.github.io/portfolio/))**  
 From the purpose of [replacing the whole content](https://iamstevendao.github.io/blog/general/2017/09/27/angularize-portfolio.html) into **JSON** files to handle by AngularJS, I totally replaced everything in JQuery by AngularJS. It took awhile to transfer easy-jquery stuff like **background-image slides**, **hovering** and **scroll** effects.
@@ -38,10 +38,10 @@ From the purpose of [replacing the whole content](https://iamstevendao.github.io
 - **2017-09-28 (Finish [Pacman C++](https://github.com/iamstevendao/pacman_cpp))**  
 I have been spending a lot of time trying to figure out how the game is so laggy until I have a talk with my C++ teacher, he advised me about use the RELEASE version instead because of the [iterations problem](https://stackoverflow.com/questions/12631609/why-is-this-code-100-times-slower-in-debug) in the Debug mode of Visual C++ 2010. It turns out to work perfectly in the release mode.
 
-- **2017-09-24 (Start with Socket Programming at work)**
+- **2017-09-24 (Start with Socket Programming at work)**  
 I did a lot of Socket and TCP/IP recently at work since I need to create a TCP/IP server and clients to apply widely for my company. It works in C#, probably with a process running in the background only, but we need to consider about UI/UX later. The tests and practices are being updated into [socket-program](https://github.com/iamstevendao/socket-program).
 
-- **2017-09-23 (Use AngularJS for my portfolio website)**
+- **2017-09-23 (Use AngularJS for my portfolio website)**  
 Finally I have some jobs to make learning [AngularJS](https://angularjs.org/) not that boring, by using AngularJS for my [portfolio](https://iamstevendao.github.io/portfolio/). By applying [$http.get](https://docs.angularjs.org/api/ng/service/$http) to read JSON files instead of manually inserting in HTML file, it looks really good now, (not what it shows but the things behind).
 
 - **2017-09-19 (Start on [OneForth](https://github.com/iamstevendao/oneForth), a Desktop client for Everything I & you love)**  
@@ -88,7 +88,7 @@ Because this is the first commit, then I should summary my coding life to this p
 Establish **LiverStudio** with 1 member (it's me for your concern >.<) with the expectation of releasing 30+ projects named with Liverpool's players. Here is the list and status of them: [LiverStudio](https://docs.google.com/spreadsheets/d/1XN6vbJsW4zw5THmVj50cbXyvk0Mu7c9UZGtzwhKGZdQ/edit?usp=sharing).
 
 - **2017-08-01 ([Javascript Games](https://repl.it/@iamstevendao))**  
-From the idea of building a bundle of console on-school games running in Cordova, I started build some easy games using pure Javascript, finished: **[Snake](https://repl.it/Jo5Y/34)**, **[Tank](https://repl.it/Jr4p/1)**, **[FlappyBird](https://repl.it/Jrka/31)** and the most complicated one: **[Pacman](https://repl.it/Jv9c/32)** although I really want to apply [Disktra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) make ghosts chasing pacman when I have time.
+From the idea of building a bundle of console on-school games running in Cordova, I started build some easy games using pure Javascript, finished: **[Snake](https://iamstevendao.github.io/snake/)**, **[Tank](https://repl.it/Jr4p/1)**, **[FlappyBird](https://repl.it/Jrka/31)** and the most complicated one: **[Pacman](https://github.com/iamstevendao/pacman)** although I really want to apply [Disktra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) make ghosts chasing pacman when I have time.
 
 - **2017-A-day-in-July (Dive into Javascript)**  
 After spending hours watching [The Coding Train](https://www.youtube.com/user/shiffman), I got 'something' with Javascript, it liked a little crush and I just want to jump into it. My Javascript started!!!
