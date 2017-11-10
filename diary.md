@@ -5,6 +5,9 @@ permalink: /diary/
 ---
 >If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
+- **2017-11-10 (Create Alfred workflow: Open with VSCode)**  
+After couple of hours searching a proper Alfred workflow to open a folder with VSCode, I ended up creating my own [alfred-open-with-vscode](https://github.com/iamstevendao/alfred-open-with-vscode)
+
 - **2017-11-09 ([500 contributions](https://github.com/iamstevendao) on [Github](https://github.com/) :tada:)**  
 A lot of pain and happiness. Started seriously 3 months ago and it really became my habit.
 
