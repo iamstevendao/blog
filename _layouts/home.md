@@ -8,18 +8,17 @@ layout: default
 
   {{ content }}
 
-  <ul class="post-list">
+  <div class="post-list">
     {% for post in site.posts %}
-    <li>
+    <article class="post-preview">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+	      <h2 class="post-title">{{ post.title }}</h2>
+      </a>
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-      <h2>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </h2>
-    </li>
+      <p class="post-meta">{{ post.date | date: date_format }}</p>
+    </article>
     {% endfor %}
-  </ul>
+  </div>
 
   <!-- <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | relative_url }}">via RSS</a></p> -->
 </div>
