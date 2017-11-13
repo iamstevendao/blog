@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Angularize my portfolio"
-date:   2017-09-27 00:00:00 +1000
 categories: general
 ---
 
@@ -62,7 +61,7 @@ what I need to put in HTML:
 
 such a pain, isn't it. Moreover, I want to highlight what needs to be highlighted and make it outstanding from others, so I put class `w-wk` in those to change its opacity.
 
-It also means that for **3 lines** in the website, I need round **30 lines** of code in my HTML file, it lead to the size of ~ **800 lines** of code in my HTML file (wow). AND, when ever I want to change a tiny part in my display, for example when I want to have a space between `{` and `"`, I need to change every part it occurs in the code.
+It also means that for **3 lines** in the website, I need around **30 lines** of code in my HTML file, it leads to the length of ~ **800 lines** of code in my HTML file (wow). AND, whenever I want to change a tiny part in my display, for example when I want to have a space between `{` and `"`, I need to change every part where it occurs at in the code.
 
 All of a sudden, I need to prepare up AngularJS for my work.
 
