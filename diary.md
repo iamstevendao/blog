@@ -3,7 +3,7 @@ layout: page
 title: Diary
 permalink: /diary/
 ---
->If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
+If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
 
 - **2017-11-10 (Create Alfred workflow: Open with VSCode)**  
 After couple of hours searching a proper Alfred workflow to open a folder with VSCode, I ended up creating my own [alfred-open-with-vscode](https://github.com/iamstevendao/alfred-open-with-vscode)
@@ -55,16 +55,16 @@ Finally I have some jobs to make learning [AngularJS](https://angularjs.org/) no
 *14:50* : Enchanted by a video about [Electron](https://github.com/electron/electron) even this was the second time I watched it  
 *20:00* : Reading, finding projects powered by Electron, got enchanted again >.<  
 *23:00* : Come up with an idea about a client for 9gag, messenger, twitter, ... all the things I need to open in my Chrome after get home.  
-*24:00* : Create [OneForth](https://github.com/iamstevendao/oneForth), sucessfully open 9GAG (not that bad).
+*24:00* : Create [OneForth](https://github.com/iamstevendao/oneForth), sucessfully open up 9GAG (not that bad).
  
-- **2017-09-11 (Finishing [Pacman javascript version](https://github.com/iamstevendao/pacman))**
-I am so happy right now. There were a lot of painful works to get to this point. I will write a post to celebrate this moment. **Ghosts** are getting smarter by chasing **pacman** in different ways, switching between chasing **pacman** and among **cherries**, and runing away when **pacman** gets its power >.<.This is how the game looks like:
+- **2017-09-11 (Finishing [Pacman javascript version](https://github.com/iamstevendao/pacman))**  
+I am so happy right now. There were a lot of painful works to get to this point. I will write a post to celebrate this moment. **Ghosts** are getting smarter by chasing **pacman** in different ways, switching between chasing **pacman** and among **cherries**, and runing away when **pacman** gets its power >.<. This is how the game looks like:
 
 <p align="center">
 <img alt="pacman" src="https://thumbs.gfycat.com/FantasticFondBarnowl-size_restricted.gif"/>
 </p> 
 
-- **2017-09-08 (Implement [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to [Pacman](https://github.com/iamstevendao/pacman))**
+- **2017-09-08 (Implement [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to [Pacman](https://github.com/iamstevendao/pacman))**  
 I am really tired after such a day, but I need to write something before I forget all about it :)). I am on my way implementing Dijkstra's Algorithm to my Pacman projects, of course javascript version will be applied first.  
 Basically it works but doesn't satify me yet. I really want ghosts chase pacman but also have to be by different ways which increases the difficulty of the game. >.<, there are still a lot of things need to be done.  
 This is what it looks like so far:

@@ -258,9 +258,9 @@ h1 {
 
 .post {
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: 5em;
 
-  header {
+  > header {
     display: block;
     margin-bottom: 1em;
     padding: 1em 20px;
@@ -281,10 +281,6 @@ h1 {
       font-size: 16px;
       text-transform: uppercase;
       color: #999;
-    }
-
-    time:hover {
-      color: #000;
     }
   }
 
@@ -308,12 +304,8 @@ h1 {
     font-weight: 900;
   }
 
-  h2 {
+  > h2 {
     font-weight: 900;
-  }
-
-  h3 {
-    text-decoration: underline;
   }
 
   blockquote {
@@ -332,10 +324,65 @@ h1 {
   ol li {
     list-style-type: decimal;
   }
+}
 
-  img {
+.preview {
+  display: block;
+  margin: 2em 0;
+
+  > header {
     display: block;
-    margin: 2em auto;
-    max-width: 100%;
+    margin-bottom: 1em;
+    padding-left: 20px;
+
+    h1 {
+      font-size: 20pt;
+      font-weight: 800;
+    }
+  }
+
+  time {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+  }
+}
+
+.feed-container {
+  display: block;
+  margin-top: 4em;
+
+  > header {
+    display: block;
+    margin-bottom: 1em;
+    padding-left: 20px;
+
+    h1 {
+      font-size: 20pt;
+      font-weight: 800;
+    }
+  }
+}
+
+.feed {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 560px;
+  height: 40px;
+  margin-left: 20px;
+
+  h3 {
+    margin-bottom: 0;
+    line-height: 40px;
+  }
+  time {
+    font-size: 12px;
+    width: 150px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #999;
+    display: block;
   }
 }

@@ -1,6 +1,33 @@
+--- 
+layout: page
+title: Featured Posts
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
----
+<div class="home">
+  {% for post in site.categories.posts %}
+  <article class="preview">
+    <header>
+     <a href="{{ post.url | prepend: site.baseurl }}">
+	     <h1>{{ post.title }}</h1>
+     </a>
+     <time datetime="{{ post.date | date: " %Y-%m-%d " }}">
+       {{ post.date | date: "%-d %B %Y" }}
+     </time>
+    </header>
+  </article>
+  {% endfor %}
+  <div class="feed-container">
+    <header>
+      <h1>Diary Feed</h1>
+    </header>
+    {% for post in site.categories.posts %}
+    <div class="feed">
+      <time datetime="{{ post.date | date: " %Y-%m-%d " }}">
+        {{ post.date | date: "%-d %B %Y" }}
+      </time>
+      <a href="{{ post.url | prepend: site.baseurl }}">
+	      <h3>{{ post.title }}</h3>
+      </a>
+     </div>
+    {% endfor %}
+  </div>
+</div>
