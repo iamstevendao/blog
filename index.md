@@ -2,33 +2,32 @@
 layout: page
 title: Featured Posts
 ---
-<div class="home">
-  {% for post in site.categories.posts %}
-  <article class="preview">
+{% for post in site.categories.posts %}
+<article class="post">
+  <header>
+   <a href="{{ post.url | prepend: site.baseurl }}">
+     <h1 class="title">{{ post.title }}</h1>
+   </a>
+   <time datetime="{{ post.date | date: " %Y-%m-%d " }}">
+     {{ post.date | date: "%-d %B %Y" }}
+   </time>
+  </header>
+</article>
+{% endfor %}
+<div class="post diary-feed">
+  <header>
+    <h1 class="title">Diary Feed</h1>
+  </header>
+  {% for post in site.categories.diary %}
+  <div class="feed">
     <header>
-     <a href="{{ post.url | prepend: site.baseurl }}">
-	     <h1>{{ post.title }}</h1>
-     </a>
-     <time datetime="{{ post.date | date: " %Y-%m-%d " }}">
-       {{ post.date | date: "%-d %B %Y" }}
-     </time>
-    </header>
-  </article>
-  {% endfor %}
-  <div class="feed-container">
-    <header>
-      <h1>Diary Feed</h1>
-    </header>
-    {% for post in site.categories.diary %}
-    <div class="feed">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	      <h3>{{ post.title }}</h3>
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <h3 class="title">{{ post.title }}</h3>
       </a>
       <time datetime="{{ post.date | date: " %Y-%m-%d " }}">
         {{ post.date | date: "%-d %B %Y" }}
       </time>
-      
-     </div>
-    {% endfor %}
-  </div>
+    </header>
+   </div>
+  {% endfor %}
 </div>

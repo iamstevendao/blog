@@ -256,21 +256,12 @@ h1 {
 //   }
 // }
 
-.post {
+.page {
   display: block;
   margin-bottom: 5em;
 
   > header {
     @include header-page;
-
-    h1 {
-      font-size: 22pt;
-      font-weight: 900;
-    }
-
-    time {
-      @include time-page;
-    }
   }
 
   .body {
@@ -280,14 +271,14 @@ h1 {
     h1 {
       font-weight: 900;
       font-size: 18pt;
-      margin-bottom: .8em;
+      //margin-bottom: .8em;
     }
   }
 
-  .body h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, pre {
-    line-height: 1.75em;
-    margin-bottom: 1em;
-  }
+  // .body h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, pre {
+  //   line-height: 1.75em;
+  //   margin-bottom: 1em;
+  // }
 
   strong {
     font-weight: 900;
@@ -315,57 +306,74 @@ h1 {
   }
 }
 
-.preview {
-  display: block;
-  margin: 2em 0;
-
+.page {
   > header {
-    @include header-post;
-
-    h1 {
-      font-size: 20pt;
-      font-weight: 800;
-    }
-  }
-
-  time {
     display: block;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #999;
-  }
-}
+    margin-bottom: 1em;
+    padding: 1em 20px;
+    border-bottom: 1px dashed #999;
 
-.feed-container {
-  display: block;
-  margin-top: 4em;
-
-  > header {
-    @include header-post;
-
-    h1 {
-      font-size: 20pt;
-      font-weight: 800;
+    > .title {
+      font-size: 22pt;
+      font-weight: 900;
+    }
+    > time {
+      margin-top: .5em;
+      display: block;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #999;
     }
   }
 }
 
-.feed,
-.diary header {
-  @include header-diary;
-
-  h3 {
-    margin-bottom: 0;
-    margin-right: 30px;
-    line-height: 40px;
-    font-weight: 600;
-  }
-
-  time {
-    font-size: 13px;
-    line-height: 45px;
-    text-transform: uppercase;
-    color: #888;
+.post {
+  margin-top: 25px;
+  > header {
     display: block;
+    margin-bottom: 1em;
+    padding: 0 20px;
+    .title {
+      font-size: 20pt;
+      margin-bottom: .3em;
+      font-weight: 800;
+    }
+    > time {
+      display: block;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #888;
+    }
+  }
+}
+
+.diary-feed {
+  margin-top: 40px;
+  >header {
+    padding: 0;
+  }
+}
+
+.feed {
+
+  > header {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    padding: 0 20px;
+
+    .title {
+      margin-right: 30px;
+      line-height: 40px;
+      font-weight: 600;
+    }
+
+    > time {
+      font-size: 13px;
+      line-height: 40px;
+      text-transform: uppercase;
+      color: #888;
+      display: block;
+    }
   }
 }
