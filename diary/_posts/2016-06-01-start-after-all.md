@@ -1,5 +1,5 @@
 ---
-title:  "Kick off AfterAll"
+title:  "Kick off [AfterAll](https://github.com/iamstevendao/AfterAll)"
 date:   2016-06-01 00:00:00 +1000
 anchor: kick-off-afterall
 ---

@@ -1,5 +1,5 @@
 ---
-title:  "Implement Dijkstra's Algorithm to Pacman"
+title:  "Implement [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to [Pacman](https://github.com/iamstevendao/pacman)"
 date:   2017-09-11 00:00:00 +1000
 anchor: finish-dijkstra-pacman
 ---

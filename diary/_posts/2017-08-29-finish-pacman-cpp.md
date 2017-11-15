@@ -1,5 +1,5 @@
 ---
-title:  "Pacman C++"
+title:  "Make [Pacman](https://github.com/iamstevendao/pacman_cpp) version C++"
 date:   2017-08-29 00:00:00 +1000
 anchor: finish-pacman-cpp
 ---

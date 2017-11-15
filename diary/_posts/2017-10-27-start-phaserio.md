@@ -1,5 +1,5 @@
 ---
-title:  "Make games with Phaser.io"
+title:  "Make games with [Phaser.io](http://phaser.io/)"
 date:   2017-10-27 00:00:00 +1000
 anchor: start-phaserio
 ---

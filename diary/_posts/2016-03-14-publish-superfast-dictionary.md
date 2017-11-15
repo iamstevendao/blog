@@ -1,5 +1,5 @@
 ---
-title:  "Publish Superfast Dictionary"
+title:  "Publish [Superfast Dictionary](https://play.google.com/store/apps/details?id=fukie.sieunhanhav)"
 date:   2016-03-14 00:00:00 +1000
 anchor: publish-superfast-dictionary
 ---

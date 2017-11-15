@@ -21,12 +21,12 @@ title: Featured Posts
   {% for post in site.categories.diary %}
   <div class="feed">
     <header>
+        <h3 class="title">{{ post.title | markdownify }}</h3>
       <a href="/blog/diary#{{ post.anchor }}">
-        <h3 class="title">{{ post.title }}</h3>
-      </a>
       <time datetime="{{ post.date | date: " %Y-%m-%d " }}">
         {{ post.date | date: "%-d %B %Y" }}
       </time>
+      </a>
     </header>
    </div>
   {% endfor %}

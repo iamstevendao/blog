@@ -1,5 +1,5 @@
 ---
-title:  "Learn ASP.NET MVC Core"
+title:  "Learn [ASP.NET](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app-xplat/start-mvc) MVC Core"
 date:   2017-10-12 00:00:00 +1000
 anchor: start-aspdotnet
 ---

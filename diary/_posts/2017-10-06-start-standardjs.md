@@ -1,5 +1,5 @@
 ---
-title:  "Start using StandardJS"
+title:  "Start using [StandardJS](https://github.com/standard/standard)"
 date:   2017-10-06 00:00:00 +1000
 anchor: start-standardjs
 ---

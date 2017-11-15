@@ -1,5 +1,5 @@
 ---
-title:  "AfterAll & Superfast-Dictionary to be open-source"
+title:  "[AfterAll](https://github.com/iamstevendao/AfterAll) & [Superfast-Dictionary](https://github.com/iamstevendao/Superfast-Dictionary) to be open-source"
 date:   2017-08-30 00:00:00 +1000
 anchor: open-source-android-apps
 ---

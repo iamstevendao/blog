@@ -1,5 +1,5 @@
 ---
-title:  "Write Blog"
+title:  "[Steven's Blog](https://iamstevendao.github.io/blog) to be deployed"
 date:   2017-09-04 00:00:00 +1000
 anchor: start-blog
 ---

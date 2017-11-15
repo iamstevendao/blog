@@ -1,5 +1,5 @@
 ---
-title:  "Start on OneForth, a Desktop client for Everything"
+title:  "Start on [OneForth](https://github.com/iamstevendao/oneForth), a Desktop client for Everything"
 date:   2017-09-23 00:00:00 +1000
 anchor: start-one-forth
 ---

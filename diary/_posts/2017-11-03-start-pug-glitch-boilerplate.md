@@ -1,5 +1,5 @@
 ---
-title:  "Do some Pug, Glitch, know what a boilerplate is"
+title:  "Do some [Pug](https://github.com/pugjs/pug), [Glitch](https://glitch.com/), know what the [boilerplate](https://github.com/sahat/hackathon-starter) is"
 date:   2017-11-03 00:00:00 +1000
 anchor: start-pug-glitch-boilerplate
 ---
