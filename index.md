@@ -21,7 +21,7 @@ title: Featured Posts
   {% for post in site.categories.diary %}
   <div class="feed">
     <header>
-      <a href="{{ post.url | prepend: site.baseurl }}">
+      <a href="/blog/diary#{{ post.anchor }}">
         <h3 class="title">{{ post.title }}</h3>
       </a>
       <time datetime="{{ post.date | date: " %Y-%m-%d " }}">

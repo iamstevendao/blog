@@ -3,22 +3,19 @@ layout: page
 title: Diary
 permalink: /diary/
 ---
-If my grammar or vocabulary is wrong or inappropriate, please correct me, I appreciate any advice.
-<div>
 {% for post in site.categories.diary %}
-    <div class="diary">
-      <header>
-        <h3>{{ post.title }}</h3>
-        <time datetime="{{ post.date | date: " %Y-%m-%d " }}">
-          {{ post.date | date: "%-d %B %Y" }}
-        </time>  
-      </header>
-      <div class="body">
-        {{post.content}}
-      </div>
-     </div>
+<div class="feed" id="{{post.anchor}}">
+  <header>
+    <h3 class="title">{{ post.title }}</h3>
+    <time datetime="{{ post.date | date: " %Y-%m-%d " }}">
+      {{ post.date | date: "%-d %B %Y" }}
+    </time>  
+  </header>
+  <div class="body">
+    {{post.content}}
+  </div>
+ </div>
 {% endfor %}
-</div>
 
 - **2017-11-10 (Create Alfred workflow: Open with VSCode)**  
 After couple of hours searching a proper Alfred workflow to open a folder with VSCode, I ended up creating my own [alfred-open-with-vscode](https://github.com/iamstevendao/alfred-open-with-vscode)
