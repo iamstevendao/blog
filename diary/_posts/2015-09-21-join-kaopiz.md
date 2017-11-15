@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Join Kaopiz"
 date:   2015-09-21 00:00:00 +1000
 anchor: join-kaopiz
