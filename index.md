@@ -19,14 +19,15 @@ title: Featured Posts
     <header>
       <h1>Diary Feed</h1>
     </header>
-    {% for post in site.categories.posts %}
+    {% for post in site.categories.diary %}
     <div class="feed">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	      <h3>{{ post.title }}</h3>
+      </a>
       <time datetime="{{ post.date | date: " %Y-%m-%d " }}">
         {{ post.date | date: "%-d %B %Y" }}
       </time>
-      <a href="{{ post.url | prepend: site.baseurl }}">
-	      <h3>{{ post.title }}</h3>
-      </a>
+      
      </div>
     {% endfor %}
   </div>

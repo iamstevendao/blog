@@ -8,4 +8,4 @@ Source code for [Steven's Blog](https://iamstevendao.github.io/blog/), is powere
 - [IcoMoon.io](https://icomoon.io/) (icon-web.svg)
 - [Minima theme](https://github.com/jekyll/minima)
 
-made with &#x2764; by [Steven](https://github.com/iamstevendao) powered by [Jekyll](https://github.com/jekyll/jekyll).
+made with &#x2764; by [Steven](https://github.com/iamstevendao).

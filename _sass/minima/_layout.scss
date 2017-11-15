@@ -261,26 +261,15 @@ h1 {
   margin-bottom: 5em;
 
   > header {
-    display: block;
-    margin-bottom: 1em;
-    padding: 1em 20px;
-    border-bottom: 1px dashed #999;
+    @include header-page;
 
     h1 {
       font-size: 22pt;
       font-weight: 900;
     }
 
-    a {
-      border-bottom: 0;
-    }
-
     time {
-      margin-top: .5em;
-      display: block;
-      font-size: 16px;
-      text-transform: uppercase;
-      color: #999;
+      @include time-page;
     }
   }
 
@@ -331,9 +320,7 @@ h1 {
   margin: 2em 0;
 
   > header {
-    display: block;
-    margin-bottom: 1em;
-    padding-left: 20px;
+    @include header-post;
 
     h1 {
       font-size: 20pt;
@@ -354,9 +341,7 @@ h1 {
   margin-top: 4em;
 
   > header {
-    display: block;
-    margin-bottom: 1em;
-    padding-left: 20px;
+    @include header-post;
 
     h1 {
       font-size: 20pt;
@@ -365,24 +350,22 @@ h1 {
   }
 }
 
-.feed {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  min-width: 560px;
-  height: 40px;
-  margin-left: 20px;
+.feed,
+.diary header {
+  @include header-diary;
 
   h3 {
     margin-bottom: 0;
+    margin-right: 30px;
     line-height: 40px;
+    font-weight: 600;
   }
+
   time {
-    font-size: 12px;
-    width: 150px;
+    font-size: 13px;
     line-height: 45px;
     text-transform: uppercase;
-    color: #999;
+    color: #888;
     display: block;
   }
 }

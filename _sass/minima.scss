@@ -41,6 +41,36 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+@mixin header-page {
+  display: block;
+  margin-bottom: 1em;
+  padding: 1em 20px;
+  border-bottom: 1px dashed #999;
+}
+
+@mixin header-post {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0 20px;
+}
+
+@mixin header-diary {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 560px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+@mixin time-page {
+  margin-top: .5em;
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #999;
+}
+
 // Import partials.
 @import
   "minima/base",
