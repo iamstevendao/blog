@@ -1,7 +1,7 @@
 --- 
 layout: default 
 ---
-<article class="page" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="page" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <h1 class="title">{{ page.title | escape}}</h2>
     <time datetime="{{ page.date | date: " %Y-%m-%d " }}">
@@ -11,4 +11,4 @@ layout: default
   <div class="body">
     {{content}}
   </div>
-</article>
+</div>

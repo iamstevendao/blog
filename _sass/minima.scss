@@ -6,7 +6,7 @@
 $base-font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.9 !default;
+$small-font-size:  13px !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
@@ -43,56 +43,10 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
-@mixin header-page {
+@mixin time($font-size) {
   display: block;
-  margin-bottom: 1em;
-  padding: 1em 20px;
-  border-bottom: 1px dashed #999;
-
-  h1 {
-    font-size: 22pt;
-    font-weight: 200;
-  }
-
-  time {
-    @include time-page;
-  }
-}
-
-@mixin header-post {
-  display: block;
-  margin-bottom: 1em;
-  padding: 0 20px;
-}
-
-@mixin header-feed {
-  display: flex;
-  flex-direction: row;
-  height: 40px;
-  padding: 0 20px;
-}
-
-@mixin time-page {
-  margin-top: .5em;
-  display: block;
-  font-size: 16px;
+  font-size: $font-size;
   text-transform: uppercase;
-  color: #999;
-}
-
-@mixin time-post {
-  display: block;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #888;
-}
-
-@mixin time-feed {
-  font-size: 13px;
-  line-height: 45px;
-  text-transform: uppercase;
-  color: #888;
-  display: block;
 }
 
 // Import partials.
