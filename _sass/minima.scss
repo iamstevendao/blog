@@ -1,8 +1,9 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 // Define defaults for each variable.
 
-$base-font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.9 !default;
@@ -31,6 +32,7 @@ $on-laptop:        800px !default;
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
@@ -49,7 +51,7 @@ $on-laptop:        800px !default;
 
   h1 {
     font-size: 22pt;
-    font-weight: 900;
+    font-weight: 200;
   }
 
   time {

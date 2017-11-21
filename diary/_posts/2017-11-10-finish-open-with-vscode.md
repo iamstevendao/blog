@@ -1,5 +1,5 @@
 ---
-title:  "Create an Alfred workflow: Open with VSCode"
+title:  "Create an Alfred workflow: [Open with VSCode](https://github.com/iamstevendao/alfred-open-with-vscode)"
 date:   2017-11-10 00:00:00 +1000
 anchor: finish-open-with-vscode
 ---
