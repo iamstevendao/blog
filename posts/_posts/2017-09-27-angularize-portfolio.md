@@ -59,7 +59,7 @@ what I need to put in HTML:
 </p>
 ```
 
-such a pain, isn't it. Moreover, I want to highlight what needs to be highlighted and make it outstanding from others, so I put class `w-wk` in those to change its opacity.
+such a pain, isn't it. Moreover, I want to highlight what needs to be highlighted and make it outstanding from others, so I put class `w-wk` in those to change their opacity.
 
 It also means that for **3 lines** in the website, I need around **30 lines** of code in my HTML file, it leads to the length of ~ **800 lines** of code in my HTML file (wow). AND, whenever I want to change a tiny part in my display, for example when I want to have a space between `{` and `"`, I need to change every part where it occurs at in the code.
 

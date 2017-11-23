@@ -5,9 +5,10 @@ permalink: /about/
 ---
 
 I am Steven Dao, 
-- I am a student at [Academy of IT](http://www.ait.edu.au/).
-- I am working at [Becas Technology](http://www.becas.com.au/), [ACE Tuition Center](http://acetuitioncentre.com.au/), [SMASH!](http://www.smash.org.au/) and [Aromajoin Corporation](http://aromajoin.com/).
-- I love Liverpool, Naruto and coding.
+- A student at [Academy of IT](http://www.ait.edu.au/).
+- Working at [Becas Technology](http://www.becas.com.au/), [ACE Tuition Center](http://acetuitioncentre.com.au/).
+- Former [Aromajoin Corporation](http://aromajoin.com/).
+- Love dogs, cats, Liverpool and Naruto.
 
 Ping me at [github](https://github.com/iamstevendao), [twitter](https://twitter.com/iamstevendao) or check out my [portfolio](https://iamstevendao.github.io/portfolio). 
 &nbsp;
@@ -24,7 +25,7 @@ Ping me at [github](https://github.com/iamstevendao), [twitter](https://twitter.
 - **[The Coding Train](https://www.youtube.com/user/shiffman)** (The beauty and power of Javascript)
 - **[Geoffrey Roberts](https://github.com/rtrvrtg)** (Using shorcuts instead of touchpad while coding (believe me, you are really impressive to me >.<))
 - **[Quang Nguyen](https://github.com/quangctkm9207)** (Habit of Writing documentation, notes and blogs)
-- **[Evan Hahn](http://evanhahn.com/)** (Your blog impressed me and it is the reason for the existence of this blog)
+- **[Evan Hahn](http://evanhahn.com/)** (Your blog impressed me and it was the main reason for the existence of this blog)
 - **[Chris Ford]()** (My friend, my teacher, and is as dumb as me >.<)
 - **[Stackoverflow](https://stackoverflow.com/)** (Of course)
 - **[Visual Studio Code](https://code.visualstudio.com/)** (Power and minimalist, my favourite code editor)  
