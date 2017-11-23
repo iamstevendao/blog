@@ -217,22 +217,39 @@
 
 .feed {
   margin-top: 20px;
-  padding: 0 20px;
+  padding-left: 20px;
 
   > header {
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-
+    padding-bottom: 10px;
     .title {
-      line-height: 40px;
+      display: inline;
+    }
+    .title p {
+      display: inline;
       font-weight: 400;
       margin-right: 30px;
     }
 
     time {
+      display: inline;
       @include time($small-font-size);
-      line-height: 43px;
+    }
+  }
+}
+
+@include media-query($on-palm) {
+  .feed {
+    padding-left: 10px;
+
+    > header {
+      display: block;
+      .title {
+        display: block;
+      }
+      time {
+        margin-top: 5px;
+        display: block;
+      }
     }
   }
 }
