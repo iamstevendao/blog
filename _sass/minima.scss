@@ -1,9 +1,12 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css');
+
 
 // Define defaults for each variable.
 
-$base-font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-base: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-code: "Fira Code", "Menlo", "Monaco", "Consolas", "monospace" !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  13px !default;
@@ -11,8 +14,12 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
+$text-color-base:       #111 !default;
+$text-color-code:       #D4D4D4 !default;
+
+$background-color-base: #fdfdfd !default;
+$background-color-code: #1E1E1E !default;
+
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
