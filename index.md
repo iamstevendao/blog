@@ -1,6 +1,6 @@
 --- 
 layout: page
-title: Featured Posts
+title: Posts
 ---
 {% for post in site.categories.posts %}
 <article class="post">
