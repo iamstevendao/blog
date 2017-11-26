@@ -18,6 +18,6 @@ plugins:
   - jemoji
 
 header_pages:
-- projects.md
+# - projects.md
 - diary.md
 - about.md

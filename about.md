@@ -5,9 +5,8 @@ permalink: /about/
 ---
 
 I am Steven Dao, 
-- A student at [Academy of IT](http://www.ait.edu.au/).
 - Working at [Becas Technology](http://www.becas.com.au/), [ACE Tuition Center](http://acetuitioncentre.com.au/).
-- Former [Aromajoin Corporation](http://aromajoin.com/).
+- Former at [Aromajoin Corporation](http://aromajoin.com/).
 - Love dogs, cats, Liverpool and Naruto.
 
 Ping me at [github](https://github.com/iamstevendao), [twitter](https://twitter.com/iamstevendao) or check out my [portfolio](https://iamstevendao.github.io/portfolio). 
