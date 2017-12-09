@@ -1,5 +1,5 @@
 ---
-title:  "Learn Meteor + Vue, make simple [todo app](https://github.com/iamstevendao/meteor-vue-demo)"
+title:  "Learn Meteor + Vue, make a simple [todo app](https://github.com/iamstevendao/meteor-vue-demo)"
 date:   2017-11-20 00:00:00 +1000
 anchor: start-meteor-vue
 ---
