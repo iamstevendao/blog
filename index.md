@@ -22,7 +22,7 @@ title: Posts
   <div class="feed">
     <header>
         <h3 class="title">{{ post.title | markdownify }}</h3>
-      <a href="/blog/diary#{{ post.anchor }}">
+      <a href="/diary#{{ post.anchor }}">
       <time datetime="{{ post.date | date: " %Y-%m-%d " }}">
         {{ post.date | date: "%-d %B %Y" }}
       </time>
